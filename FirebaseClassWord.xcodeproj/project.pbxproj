@@ -10,12 +10,20 @@
 		639DAC202A963DEC00AFD13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC1F2A963DEC00AFD13A /* AppDelegate.swift */; };
 		639DAC222A963DEC00AFD13A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC212A963DEC00AFD13A /* SceneDelegate.swift */; };
 		639DAC242A963DEC00AFD13A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC232A963DEC00AFD13A /* ViewController.swift */; };
-		639DAC272A963DEC00AFD13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639DAC252A963DEC00AFD13A /* Main.storyboard */; };
 		639DAC292A963DEE00AFD13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639DAC282A963DEE00AFD13A /* Assets.xcassets */; };
 		639DAC2C2A963DEE00AFD13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639DAC2A2A963DEE00AFD13A /* LaunchScreen.storyboard */; };
 		639DAC372A963DEE00AFD13A /* FirebaseClassWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC362A963DEE00AFD13A /* FirebaseClassWordTests.swift */; };
 		639DAC412A963DEE00AFD13A /* FirebaseClassWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC402A963DEE00AFD13A /* FirebaseClassWordUITests.swift */; };
 		639DAC432A963DEE00AFD13A /* FirebaseClassWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC422A963DEE00AFD13A /* FirebaseClassWordUITestsLaunchTests.swift */; };
+		639DAC512A963FC300AFD13A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 639DAC502A963FC300AFD13A /* SnapKit */; };
+		639DAC532A9641EB00AFD13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 639DAC522A9641EB00AFD13A /* GoogleService-Info.plist */; };
+		639DAC582A96440B00AFD13A /* leveldb-library.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC542A96440A00AFD13A /* leveldb-library.xcframework */; };
+		639DAC592A96440B00AFD13A /* FirebaseDatabase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC552A96440B00AFD13A /* FirebaseDatabase.xcframework */; };
+		639DAC5A2A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC562A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework */; };
+		639DAC5B2A96440B00AFD13A /* FirebaseSharedSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC572A96440B00AFD13A /* FirebaseSharedSwift.xcframework */; };
+		639DAC5E2A96441F00AFD13A /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC5C2A96441E00AFD13A /* FirebaseCore.xcframework */; };
+		639DAC5F2A96441F00AFD13A /* FirebaseCoreInternal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC5D2A96441F00AFD13A /* FirebaseCoreInternal.xcframework */; };
+		639DAC632A96469700AFD13A /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC622A96469700AFD13A /* GoogleUtilities.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +48,6 @@
 		639DAC1F2A963DEC00AFD13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639DAC212A963DEC00AFD13A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		639DAC232A963DEC00AFD13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		639DAC262A963DEC00AFD13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		639DAC282A963DEE00AFD13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639DAC2B2A963DEE00AFD13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		639DAC2D2A963DEE00AFD13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,16 @@
 		639DAC3C2A963DEE00AFD13A /* FirebaseClassWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseClassWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		639DAC402A963DEE00AFD13A /* FirebaseClassWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClassWordUITests.swift; sourceTree = "<group>"; };
 		639DAC422A963DEE00AFD13A /* FirebaseClassWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClassWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		639DAC522A9641EB00AFD13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		639DAC542A96440A00AFD13A /* leveldb-library.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "leveldb-library.xcframework"; sourceTree = "<group>"; };
+		639DAC552A96440B00AFD13A /* FirebaseDatabase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseDatabase.xcframework; sourceTree = "<group>"; };
+		639DAC562A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseDatabaseSwift.xcframework; sourceTree = "<group>"; };
+		639DAC572A96440B00AFD13A /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		639DAC5C2A96441E00AFD13A /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
+		639DAC5D2A96441F00AFD13A /* FirebaseCoreInternal.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreInternal.xcframework; sourceTree = "<group>"; };
+		639DAC602A96443500AFD13A /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		639DAC612A96443500AFD13A /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		639DAC622A96469700AFD13A /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639DAC582A96440B00AFD13A /* leveldb-library.xcframework in Frameworks */,
+				639DAC5E2A96441F00AFD13A /* FirebaseCore.xcframework in Frameworks */,
+				639DAC5B2A96440B00AFD13A /* FirebaseSharedSwift.xcframework in Frameworks */,
+				639DAC632A96469700AFD13A /* GoogleUtilities.xcframework in Frameworks */,
+				639DAC5A2A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework in Frameworks */,
+				639DAC592A96440B00AFD13A /* FirebaseDatabase.xcframework in Frameworks */,
+				639DAC512A963FC300AFD13A /* SnapKit in Frameworks */,
+				639DAC5F2A96441F00AFD13A /* FirebaseCoreInternal.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +127,19 @@
 				639DAC1F2A963DEC00AFD13A /* AppDelegate.swift */,
 				639DAC212A963DEC00AFD13A /* SceneDelegate.swift */,
 				639DAC232A963DEC00AFD13A /* ViewController.swift */,
-				639DAC252A963DEC00AFD13A /* Main.storyboard */,
 				639DAC282A963DEE00AFD13A /* Assets.xcassets */,
 				639DAC2A2A963DEE00AFD13A /* LaunchScreen.storyboard */,
 				639DAC2D2A963DEE00AFD13A /* Info.plist */,
+				639DAC522A9641EB00AFD13A /* GoogleService-Info.plist */,
+				639DAC552A96440B00AFD13A /* FirebaseDatabase.xcframework */,
+				639DAC562A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework */,
+				639DAC572A96440B00AFD13A /* FirebaseSharedSwift.xcframework */,
+				639DAC542A96440A00AFD13A /* leveldb-library.xcframework */,
+				639DAC5C2A96441E00AFD13A /* FirebaseCore.xcframework */,
+				639DAC5D2A96441F00AFD13A /* FirebaseCoreInternal.xcframework */,
+				639DAC622A96469700AFD13A /* GoogleUtilities.xcframework */,
+				639DAC612A96443500AFD13A /* Firebase.h */,
+				639DAC602A96443500AFD13A /* module.modulemap */,
 			);
 			path = FirebaseClassWord;
 			sourceTree = "<group>";
@@ -143,6 +177,9 @@
 			dependencies = (
 			);
 			name = FirebaseClassWord;
+			packageProductDependencies = (
+				639DAC502A963FC300AFD13A /* SnapKit */,
+			);
 			productName = FirebaseClassWord;
 			productReference = 639DAC1C2A963DEC00AFD13A /* FirebaseClassWord.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 639DAC132A963DEC00AFD13A;
+			packageReferences = (
+				639DAC4F2A963FC300AFD13A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 639DAC1D2A963DEC00AFD13A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +273,7 @@
 			files = (
 				639DAC2C2A963DEE00AFD13A /* LaunchScreen.storyboard in Resources */,
 				639DAC292A963DEE00AFD13A /* Assets.xcassets in Resources */,
-				639DAC272A963DEC00AFD13A /* Main.storyboard in Resources */,
+				639DAC532A9641EB00AFD13A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		639DAC252A963DEC00AFD13A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				639DAC262A963DEC00AFD13A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		639DAC2A2A963DEE00AFD13A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +473,6 @@
 				INFOPLIST_FILE = FirebaseClassWord/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +499,6 @@
 				INFOPLIST_FILE = FirebaseClassWord/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +626,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		639DAC4F2A963FC300AFD13A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		639DAC502A963FC300AFD13A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 639DAC4F2A963FC300AFD13A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 639DAC142A963DEC00AFD13A /* Project object */;
 }
