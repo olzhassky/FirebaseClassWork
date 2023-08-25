@@ -16,7 +16,6 @@
 		639DAC412A963DEE00AFD13A /* FirebaseClassWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC402A963DEE00AFD13A /* FirebaseClassWordUITests.swift */; };
 		639DAC432A963DEE00AFD13A /* FirebaseClassWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639DAC422A963DEE00AFD13A /* FirebaseClassWordUITestsLaunchTests.swift */; };
 		639DAC512A963FC300AFD13A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 639DAC502A963FC300AFD13A /* SnapKit */; };
-		639DAC532A9641EB00AFD13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 639DAC522A9641EB00AFD13A /* GoogleService-Info.plist */; };
 		639DAC582A96440B00AFD13A /* leveldb-library.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC542A96440A00AFD13A /* leveldb-library.xcframework */; };
 		639DAC592A96440B00AFD13A /* FirebaseDatabase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC552A96440B00AFD13A /* FirebaseDatabase.xcframework */; };
 		639DAC5A2A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC562A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework */; };
@@ -24,6 +23,8 @@
 		639DAC5E2A96441F00AFD13A /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC5C2A96441E00AFD13A /* FirebaseCore.xcframework */; };
 		639DAC5F2A96441F00AFD13A /* FirebaseCoreInternal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC5D2A96441F00AFD13A /* FirebaseCoreInternal.xcframework */; };
 		639DAC632A96469700AFD13A /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC622A96469700AFD13A /* GoogleUtilities.xcframework */; };
+		639DAC652A964E5400AFD13A /* FBLPromises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639DAC642A964E5400AFD13A /* FBLPromises.xcframework */; };
+		639DAC692A9650BC00AFD13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 639DAC682A9650BC00AFD13A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,6 @@
 		639DAC3C2A963DEE00AFD13A /* FirebaseClassWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseClassWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		639DAC402A963DEE00AFD13A /* FirebaseClassWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClassWordUITests.swift; sourceTree = "<group>"; };
 		639DAC422A963DEE00AFD13A /* FirebaseClassWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClassWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		639DAC522A9641EB00AFD13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		639DAC542A96440A00AFD13A /* leveldb-library.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "leveldb-library.xcframework"; sourceTree = "<group>"; };
 		639DAC552A96440B00AFD13A /* FirebaseDatabase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseDatabase.xcframework; sourceTree = "<group>"; };
 		639DAC562A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseDatabaseSwift.xcframework; sourceTree = "<group>"; };
@@ -66,6 +66,8 @@
 		639DAC602A96443500AFD13A /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		639DAC612A96443500AFD13A /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		639DAC622A96469700AFD13A /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		639DAC642A964E5400AFD13A /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBLPromises.xcframework; sourceTree = "<group>"; };
+		639DAC682A9650BC00AFD13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				639DAC5B2A96440B00AFD13A /* FirebaseSharedSwift.xcframework in Frameworks */,
 				639DAC632A96469700AFD13A /* GoogleUtilities.xcframework in Frameworks */,
 				639DAC5A2A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework in Frameworks */,
+				639DAC652A964E5400AFD13A /* FBLPromises.xcframework in Frameworks */,
 				639DAC592A96440B00AFD13A /* FirebaseDatabase.xcframework in Frameworks */,
 				639DAC512A963FC300AFD13A /* SnapKit in Frameworks */,
 				639DAC5F2A96441F00AFD13A /* FirebaseCoreInternal.xcframework in Frameworks */,
@@ -130,7 +133,6 @@
 				639DAC282A963DEE00AFD13A /* Assets.xcassets */,
 				639DAC2A2A963DEE00AFD13A /* LaunchScreen.storyboard */,
 				639DAC2D2A963DEE00AFD13A /* Info.plist */,
-				639DAC522A9641EB00AFD13A /* GoogleService-Info.plist */,
 				639DAC552A96440B00AFD13A /* FirebaseDatabase.xcframework */,
 				639DAC562A96440B00AFD13A /* FirebaseDatabaseSwift.xcframework */,
 				639DAC572A96440B00AFD13A /* FirebaseSharedSwift.xcframework */,
@@ -139,7 +141,9 @@
 				639DAC5D2A96441F00AFD13A /* FirebaseCoreInternal.xcframework */,
 				639DAC622A96469700AFD13A /* GoogleUtilities.xcframework */,
 				639DAC612A96443500AFD13A /* Firebase.h */,
+				639DAC642A964E5400AFD13A /* FBLPromises.xcframework */,
 				639DAC602A96443500AFD13A /* module.modulemap */,
+				639DAC682A9650BC00AFD13A /* GoogleService-Info.plist */,
 			);
 			path = FirebaseClassWord;
 			sourceTree = "<group>";
@@ -273,7 +277,7 @@
 			files = (
 				639DAC2C2A963DEE00AFD13A /* LaunchScreen.storyboard in Resources */,
 				639DAC292A963DEE00AFD13A /* Assets.xcassets in Resources */,
-				639DAC532A9641EB00AFD13A /* GoogleService-Info.plist in Resources */,
+				639DAC692A9650BC00AFD13A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = justcode.FirebaseClassWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -506,6 +511,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = justcode.FirebaseClassWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
